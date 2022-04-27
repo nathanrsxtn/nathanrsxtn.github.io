@@ -8,6 +8,7 @@ html {
 }
 body {
     margin: 0px;
+    overflow-x: hidden;
 }
 header {
     width: 100vw;
@@ -47,7 +48,7 @@ h2 {
 nav {
     z-index: 1;
     background-color: #1A237E;
-    height: 8rem;
+    height: 6rem;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -55,7 +56,7 @@ nav {
     align-items: stretch;
 }
 a {
-    font-size: 3rem;
+    font-size: 2.2rem;
     text-decoration: none;
     text-align: center;
     text-overflow: clip;
@@ -67,5 +68,5 @@ main {
     flex-direction: column;
 }
 img {
-    width: 100vw;
+    width: 95vw;
 }
